@@ -1,5 +1,17 @@
 
-#ImagenInicio{
-    width: 200px;
-    height: 100px;
+.barraInicio{
+    position:absolute;
+    width: 2012px;
+    height: 175px;
+    margin-left: -100px;
+    top: -10px;
+   
+    background-color: rgb(255, 255, 255) ;
+
+}
+.ImagenInicio{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
 }
