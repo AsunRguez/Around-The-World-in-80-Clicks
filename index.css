@@ -1,7 +1,7 @@
 .barraInicio{
     position:fixed;
     width: 2012px;
-    height: 175px;
+    height: 150px;
     margin-left: -100px;
     top: -10px;
     background-color: rgb(255, 255, 255) ;
@@ -10,8 +10,8 @@
     position: absolute;
     width: 160px;
     height: 160px;
-    top: 20px;
     margin-left: 10%;
+    
 }
 a{
     text-decoration: none;
@@ -19,10 +19,12 @@ a{
     
 }
 a:hover {
-
     padding:10px;
-    background-color: rgb(224, 224, 224);
+    background-color: rgba(160, 160, 160, 0.17);
     cursor: pointer;
+    border-radius: 15px;
+    font-size: 25px;
+    transition: 0.20s;
     
   }
 
@@ -40,14 +42,6 @@ li{
     
     
 }
-
-.imagenInicio2{
-    position: absolute;
-    width: 1900px;
-    height: 700px;
-    margin-left: -10px;
-    margin-top: 149px;
-}
 .cuadrado{
     position: absolute;
     width: 400px;
@@ -58,3 +52,7 @@ li{
     background-color: rgb(230, 230, 230) ;
     box-shadow: 5px 5px rgb(118, 118, 118);
 }
+
+
+
+
