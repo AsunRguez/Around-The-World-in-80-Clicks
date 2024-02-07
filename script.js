@@ -1,33 +1,74 @@
-function searchImages() {
-    const searchInput = document.getElementById('searchInput').value;
-    const imageResults = document.getElementById('imageResults');
+const search = document.querySelector(".search-box input"),
+    images = document.querySelectorAll(".image-box");
 
-    // Limpia los resultados anteriores
-    imageResults.innerHTML = '';
+search.addEventListener("keyup", (e) => {
+    if (e.key == "Enter") {
+        let searcValue = search.value,
+            value = searcValue.toLowerCase();
 
-    // Realiza la búsqueda solo si se ingresó algo en el campo de búsqueda
-    if (searchInput.trim() !== '') {
-        // Puedes usar la API de Unsplash u otro recurso de imágenes
-        // Aquí se utiliza el servicio de Picsum para propósitos de ejemplo
-        const url = `https://picsum.photos/v2/list?page=1&limit=10`;
+        images.forEach((image) => {
+            if (value === image.dataset.name) {
+                //valor coincidente con el atributo de obtención de imágenes
 
-        fetch(url)
-            .then(response => response.json())
-            .then(data => displayImages(data, searchInput))
-            .catch(error => console.error('Error:', error));
+                document.getElementById("msg").innerHTML = "Imagenes encontradas:";
+
+                return (image.style.display = "block");
+            }
+
+            return (image.style.display = "none");
+        });
     }
-}
+});
 
-function displayImages(images, searchTerm) {
-    const imageResults = document.getElementById('imageResults');
+search.addEventListener("keyup", () => {
+    if (search.value != "") return;
 
-    images.forEach(image => {
-        // Filtra las imágenes basadas en el término de búsqueda
-        if (image.author.toLowerCase().includes(searchTerm.toLowerCase())) {
-            const imgElement = document.createElement('img');
-            imgElement.src = image.download_url;
-            imgElement.alt = image.author;
-            imageResults.appendChild(imgElement);
-        }
+    images.forEach((image) => {
+        image.style.display = "block";
+
+        document.getElementById("msg").innerHTML = "";
     });
-}
+});
+
+window.addEventListener("load", () => {
+    // crea el elemento padre <div id="modal">
+    let modal = document.createElement("div");
+    modal.setAttribute("id", "modal");
+    modal.setAttribute("class", "modal");
+
+    // crea el elemento hijo <div id="modalClose">
+    let modalClose = document.createElement("div");
+    modalClose.setAttribute("id", "modalClose");
+    modalClose.innerHTML = "&times;";
+
+    // crea el elemento secundario <img>
+    let modalImg = document.createElement("img");
+    modalImg.setAttribute("id", "modalImg");
+
+    // crea el elemento hijo <div id="modalText"
+    let modalText = document.createElement("div");
+    modalText.setAttribute("id", "modalText");
+
+    // elementos de nodo abierto
+    document.body.append(modal);
+    modal.appendChild(modalClose);
+    modal.appendChild(modalImg);
+    modal.appendChild(modalText);
+
+    // encontrar todos los elementos con la clase modalImg
+    let imgList = document.querySelectorAll(".modalImg"),
+        i;
+    for (const img of imgList) {
+        // agregar evento haga clic para mostrar modal y agregar atributo src
+        img.addEventListener("click", () => {
+            modal.style.display = "block";
+            modalImg.src = img.src;
+            modalText.innerHTML = img.alt;
+        });
+    }
+
+    // evento, ocultar modal si el usuario hace clic en el modal
+    modal.addEventListener("click", function () {
+        modal.style.display = "none";
+    });
+});

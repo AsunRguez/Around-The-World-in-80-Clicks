@@ -1,18 +1,112 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscador de Imágenes</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta data-name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galería de imágenes con opción de búsqueda</title>
+    <!-- Los CSS necesarios -->
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet' />
 </head>
+
 <body>
     <div class="container">
-        <h1>Buscador de Imágenes</h1>
-        <input type="text" id="searchInput" placeholder="Ingresa tu búsqueda">
-        <button onclick="searchImages()">Buscar</button>
-        <div id="imageResults"></div>
+        <div class="titulo">Galería de imágenes</div>
+
+        <div class="search-box">
+            <i class="bx bx-search"></i>
+            <input type="text" placeholder="Buscar imagen">
+        </div>
+
+        <div id="msg"></div>
+        <!--lugar del mensaje-->
+
+        <div class="images">
+            <div class="image-box" data-name="life">
+                <figure>
+                    <img src="images/isthisthelife.jpg" alt="is this the life" class="modalImg" />
+                    <figcaption>life</figcaption>
+                </figure>
+            </div>
+            <div class="image-box" data-name="entreunosyceros">
+                <figure>
+                    <img src="images/entreunosyceros.jpeg" alt="entreunosyceros" class="modalImg" />
+                    <figcaption>entreunosyceros</figcaption>
+                </figure>
+            </div>
+            <div class="image-box" data-name="passenger">
+                <figure>
+                    <img src="images/passenger.jpg" alt="Passenger" class="modalImg" />
+                    <figcaption>passenger</figcaption>
+                </figure>
+            </div>
+            <div class="image-box" data-name="vacaciones">
+                <figure>
+                    <img src="images/vacaciones.jpg" alt="Vacaciones #1" class="modalImg" />
+                    <figcaption>vacaciones</figcaption>
+                </figure>
+            </div>
+            <div class="image-box" data-name="rana">
+                <figure>
+                    <img src="images/ranafluorescente.jpg" alt="rana" class="modalImg" />
+                    <figcaption>rana</figcaption>
+                </figure>
+            </div>
+            <div class="image-box" data-name="joker">
+                <figure>
+                    <img src="images/joker.jpg" alt="Joker" class="modalImg" />
+                    <figcaption>joker</figcaption>
+                </figure>
+            </div>
+            <div class="image-box" data-name="universe">
+                <figure>
+                    <img src="images/universe.jpg" alt="Universe" class="modalImg" />
+                    <figcaption>the universe</figcaption>
+                </figure>
+            </div>
+            <div class="image-box" data-name="entreunosyceros">
+                <figure>
+                    <img src="images/Error-404-entreunosyceros.jpg" alt="error 404" class="modalImg" />
+                    <figcaption>error 404</figcaption>
+                </figure>
+            </div>
+            <div class="image-box" data-name="truth">
+                <figure>
+                    <img src="images/truth-is.jpg" alt="truth is" class="modalImg" />
+                    <figcaption>truth</figcaption>
+                </figure>
+            </div>
+            <div class="image-box" data-name="guitarra">
+                <figure>
+                    <img src="images/guitarra.jpg" alt="guitarra" class="modalImg" />
+                    <figcaption>guitarra</figcaption>
+                </figure>
+            </div>
+            <div class="image-box" data-name="vacaciones">
+                <figure>
+                    <img src="images/vacaciones2.jpg" alt="vacaciones 2" class="modalImg" />
+                    <figcaption>vacaciones 2</figcaption>
+                </figure>
+            </div>
+            <div class="image-box" data-name="binary code">
+                <figure>
+                    <img src="images/binary-code.jpg" alt="binary code" class="modalImg" />
+                    <figcaption>binary code</figcaption>
+                </figure>
+            </div>
+            <div class="image-box" data-name="Xspace">
+                <figure>
+                    <img src="images/space.jpg" alt="Xspace" class="modalImg" />
+                    <figcaption>Xspace</figcaption>
+                </figure>
+            </div>
+        </div>
     </div>
-    <script src="script.js"></script>
+
+    <script src="script.js"></script> <!-- Script JS-->
 </body>
+
 </html>
