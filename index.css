@@ -5,6 +5,7 @@
     margin-left: -100px;
     top: -10px;
     background-color: rgb(255, 255, 255) ;
+    z-index: 5;
 }
 .ImagenInicio{
     position: absolute;
@@ -13,12 +14,12 @@
     margin-left: 10%;
     
 }
-a{
+.efecto{
     text-decoration: none;
     color: rgb(34, 121, 235);
     
 }
-a:hover {
+.efecto:hover {
     padding:10px;
     background-color: rgba(160, 160, 160, 0.17);
     cursor: pointer;
@@ -35,7 +36,7 @@ li{
 }
 
 .opciones{
-    margin-left: 30%;
+    margin-left: 25%;
     margin-top: 75px;
     font-size:25px;
     
@@ -43,9 +44,58 @@ li{
 }
 .logos{
     display: inline;
-    margin-left: 60%;
-    margin-top: 30px;
+    margin-left: 83%;
+    position: absolute;
+    bottom: -15px;
+}
+
+#ImagenInicio2{
+    width: 100%;
+}
+
+.Texto1{
+    position:absolute;
+    font-size: 100px;
+    top: 30%;
+    margin-left:8%;
+    color: #031f44
+}
+
+.Texto2{
+    position:absolute;
+    font-size: 50px;
+    top: 50%;
+    margin-left:60%;
+    color: #031f44
+}
+.contactanos{
+    position: absolute;
+    top: 80%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000f22;
+    margin-left:60%;
+    text-decoration: none;
+    border-style: solid;
+    border-color: #031f44;
+    padding: 20px;
+    border-width: 1px;
+    border-radius: 25px ;
+}
+.contactanos:hover {
+    padding:30px;
+    background-color: rgba(160, 160, 160, 0.17);
+    cursor: pointer;
+    transition: 0.20s;
     
+  }
+
+
+.TextoIntro{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 .cuadrado{
     position: absolute;
