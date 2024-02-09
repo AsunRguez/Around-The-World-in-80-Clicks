@@ -1,219 +1,26 @@
 
-html{
-    background-image:url(../atw\ img/si.gif);
-    background-size: cover;
 
-}
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Comic Sans Ms', sans-serif;
-}
+
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    font-family: Arial, sans-serif;
 }
 
-/* Título */
-.titulo {
+.search-box {
     display: inline-block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 10px;
-    border: none;
-    font: normal 48px/normal "Warnes", Helvetica, sans-serif;
-    color: rgba(255, 255, 255, 1);
-    text-decoration: normal;
-    text-align: center;
-    -o-text-overflow: clip;
-    text-overflow: clip;
-    white-space: pre;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0062, 0 0 100px #5f002c;
-    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-    width: 100%;
+   margin-left: 50%;
+   
 }
 
-.titulo:hover {
-    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #3f3f3f, 0 0 70px #181818, 0 0 80px #1d1d1d, 0 0 100px #000000;
-}
-
-.container {
-    position: relative;
-    min-height: 100vh;
-    max-width: 150vh;
-    width: 100%;
-    margin: 0 auto;
-    padding: 40px 20px;
-}
-
-/* Formulario de búsqueda */
-
-.container .search-box {
-    position: relative;
-    height: 42px;
-    max-width: 400px;
-    margin: 0 auto;
-    margin-bottom: 40px;
-}
-
-.search-box input {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    outline: none;
-    border: none;
-    background-color: #323334;
-    padding: 0 15px 0 45px;
-    color: #fff;
-    border-radius: 6px;
-    font-weight: bold;
-}
-
-.search-box i {
-    position: absolute;
-    z-index: 2;
-    color: #999;
-    top: 50%;
-    left: 15px;
-    font-size: 20px;
-    transform: translateY(-50%);
-}
-
-/* Ventana modal */
-
-.container .images .image-box {
-    position: relative;
-    height: 300px;
-    width: 210px;
-    border-radius: 6px;
-    overflow: hidden;
-}
-
-.images {
-    width: 100%;
+.image-container {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
-.images .image-box {
-    margin: 8px;
-}
-
-.images .image-box img {
-    height: 100%;
-    width: 100%;
-    border-radius: 6px;
-    transition: transform 0.2s linear;
-}
-
-.image-box:hover img {
-    transform: scale(1.05);
-}
-
-figure {
-    display: inline-block;
-    height: 250px;
-
-}
-
-figcaption {
-    font-style: oblique;
-    text-align: center;
-}
-
-.imagen img {
-    max-width: 100%;
-    cursor: pointer;
-}
-
-.modalImg {
-    cursor: pointer;
-    border-radius: 0.4rem;
-    max-width: 160px;
-}
-
-.imodalImg:hover {
-    opacity: 0.8;
-}
-
-.modal {
-    display: none;
-    /* ocultar por defecto */
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    border: solid 1px;
-    background: rgba(0, 0, 0, 0.9);
-    padding-top: 5%;
-    overflow: hidden;
-}
-
-#modalImg {
-    display: block;
-    position: fixed;
-    width: 400px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* center to window */
-}
-
-/* botón cerrar ventana modal
-
-#modalClose {
-    position: absolute;
-    cursor: pointer;
-    top: 30px;
-    right: 50px;
-    color: #fff;
-    transition: all;
-    font-weight: bold;
-    font-size: 5rem;
-}
-*/
-
-#modalText {
-    margin: auto;
-    display: block;
-    text-align: center;
-    color: #ccc;
-}
-
-/* animaciones */
-
-#modalText {
-    animation-name: zoom;
-    animation-duration: 0.5s;
-}
-
-@keyframes zoom {
-    from {
-        transform: scale(0)
-    }
-
-    to {
-        transform: scale(1)
-    }
-}
-
-/*Mensaje*/
-
-#msg {
-    text-align: center;
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 25px;
+.image-container img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    object-fit: cover;
 }
