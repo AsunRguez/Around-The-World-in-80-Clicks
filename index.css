@@ -116,15 +116,17 @@ li{
 
 .noticias2{
     display: inline;
+    margin-left: -50px;
+}
+.noticias3{
+    display: inline;
+    margin-left: -50px;
 }
 
 
 
-
-.futter{
-}
-
-.cuadradoFutter{
+.cuadradoFooter{
+    margin-top: 100px;
     top: 4000px;
     background-color: #92ccd1;
     width: 100%;
