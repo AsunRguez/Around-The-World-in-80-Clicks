@@ -59,10 +59,18 @@ li{
     box-shadow: 5px 5px rgb(118, 118, 118);
 }
 
+
 #mapa{
+    width:33%;  
+    float:left;
     position: absolute;
     text-align: center;
     border: 2px solid powderblue;
     margin: 50px;
+
+}
+.direccion{
+    float:left; 
+
 
 }
