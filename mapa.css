@@ -74,3 +74,13 @@ li{
 
 
 }
+
+
+.container {
+    display: flex; /* Utiliza flexbox para distribuir los elementos */
+    height: 100vh; /* Establece la altura al 100% del viewport */
+}
+.left, .right {
+    flex: 1; /* Divide el espacio disponible en partes iguales */
+    border: 1px solid black; /* Añade un borde para mayor claridad */
+}
