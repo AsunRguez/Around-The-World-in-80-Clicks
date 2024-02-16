@@ -1,86 +1,91 @@
-.barraInicio{
-    position:fixed;
+.barraInicio {
+    position: fixed;
     width: 2012px;
     height: 175px;
     margin-left: -100px;
     top: -10px;
-    background-color: rgb(255, 255, 255) ;
+    background-color: rgb(255, 255, 255);
 }
-.ImagenInicio{
+
+.ImagenInicio {
     position: absolute;
     width: 160px;
     height: 160px;
     top: 20px;
     margin-left: 10%;
 }
-a{
+
+a {
     text-decoration: none;
     color: rgb(34, 121, 235);
-    
+
 }
+
 a:hover {
 
-    padding:10px;
+    padding: 10px;
     background-color: rgb(224, 224, 224);
     cursor: pointer;
-    
-  }
 
-li{
+}
+
+li {
     list-style: none;
     display: inline;
     padding-left: 30px;
 }
 
-.opciones{
-   
+.opciones {
+
     margin-left: 30%;
     margin-top: 75px;
-    font-size:25px;
-    
-    
+    font-size: 25px;
+
+
 }
 
-.imagenInicio2{
+.imagenInicio2 {
     position: absolute;
     width: 1900px;
     height: 700px;
     margin-left: -10px;
     margin-top: 149px;
 }
-.cuadrado{
+
+.cuadrado {
     position: absolute;
     width: 400px;
     height: 400px;
     margin-left: 1380px;
     top: 1280px;
     border-radius: 10px;
-    background-color: rgb(230, 230, 230) ;
+    background-color: rgb(230, 230, 230);
     box-shadow: 5px 5px rgb(118, 118, 118);
 }
 
 
-#mapa{
-    width:33%;  
-    float:left;
+#mapa {
+    width: 33%;
+    float: left;
     position: absolute;
     text-align: center;
     border: 2px solid powderblue;
     margin: 50px;
 
 }
-.direccion{
-    float:left; 
-
-
-}
 
 
 .container {
-    display: flex; /* Utiliza flexbox para distribuir los elementos */
-    height: 100vh; /* Establece la altura al 100% del viewport */
+    display: flex;
+    /* Utiliza flexbox para distribuir los elementos */
+    height: 100vh;
+    /* Establece la altura al 100% del viewport */
 }
-.left, .right {
-    flex: 1; /* Divide el espacio disponible en partes iguales */
-    border: 1px solid black; /* Añade un borde para mayor claridad */
+
+.left,
+.right {
+    flex: 1;
+    /* Divide el espacio disponible en partes iguales */
+    border: 1px solid black;
+    /* Añade un borde para mayor claridad */
 }
