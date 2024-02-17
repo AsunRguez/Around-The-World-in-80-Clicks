@@ -40,3 +40,20 @@ li{
     
     
 }
+
+.resenia {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #555;
+}

@@ -76,7 +76,7 @@ li {
 
 
 .container {
-    display: flex;
+    display: inline-block;
     /* Utiliza flexbox para distribuir los elementos */
     height: 100vh;
     /* Establece la altura al 100% del viewport */
