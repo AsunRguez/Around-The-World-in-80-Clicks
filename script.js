@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const altText = image.alt.toLowerCase();
 
             if (altText.includes(searchTerm)) {
-                image.style.display = "block";
+                image.style.display = "inline";
             } else {
                 image.style.display = "none";
             }
