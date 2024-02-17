@@ -82,10 +82,28 @@ li {
     /* Establece la altura al 100% del viewport */
 }
 
-.left,
+
+   
+
 .right {
-    flex: 1;
-    /* Divide el espacio disponible en partes iguales */
-    border: 1px solid black;
-    /* Añade un borde para mayor claridad */
+    position: absolute;
+    right: 10px;
+    width: 600px;
+    border: 8px solid #73AD90;
+    padding: 19px;
+  }
+  .left {
+    position: absolute;
+    left: 30px;
+    width: 600px;
+    border: 8px solid #73AD90;
+    padding: 19px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+}
+
+.container img {
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
 }
