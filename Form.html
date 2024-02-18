@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="icon" type="image/png" href="Logo sin fondo.png">
-    <link rel="stylesheet" href="index.css">
-    <script src="mapa.js"></script>
+    <link rel="stylesheet" href="form.css">
 </head>
 
 <body>
     <header>
         <div class="barraInicio">
             <a href="index.html"><img class="ImagenInicio"
-                    src="../material para pag web vuelta la mundo/Logo sin fondo.png"></a>
+                    src="Logo sin fondo.png"></a>
 
             <ul class="opciones">
                 <li><a href="Inicio" class="efecto">INICIO</a></li>
@@ -26,72 +25,70 @@
             </ul>
             <ul class="logos">
                 <li><a href="https://www.instagram.com/" target="_blank"><img
-                            src="../material para pag web vuelta la mundo/descarga.png"
+                            src="imagenInstagramFooter.png"
                             style="width: 30px; height: 30px;"></a></li>
                 <li><a href="https://twitter.com/?lang=es" target="_blank"><img
-                            src="../material para pag web vuelta la mundo/descarga (1).png"
+                            src="imagenTwitterFooter.png"
                             style="width: 30px; height: 30px;"></a></li>
                 <li><a href="https://www.google.com/intl/es/gmail/about/" target="_blank"><img
-                            src="../material para pag web vuelta la mundo/descarga (2).png"
+                            src="imagenGmailFooter.png"
                             style="width: 30px; height: 30px;"></a></li>
                 <li><a href="https://www.facebook.com/?locale=es_ES" target="_blank"><img
-                            src="../material para pag web vuelta la mundo/images.png"
+                            src="imagesFacebookFooter.png"
                             style="width: 30px; height: 30px;"></a></li>
             </ul>
         </div>
     </header>
+    <img id="ImagenInicio2" src="../material para pag web vuelta la mundo/WhatsApp Image 2024-02-01 at 23.39.34.jpeg">
+    <div>
+        <p class="Texto1">
+            Around<br>
+            the world<br>
+            in 80 clicks</p>
+        <p class="Texto2">
+            Explora, Sueña, Viaja: Juntos <br>
+            hacemos posible tu próxima<br>
+            gran aventura
+        </p>
+        <a href="contacto" class="contactanos">CONTACTANOS</a>
+   
+      </head>
 
+    
+        <fieldset>
+            <legend>Datos Personales</legend>
 
+        <label class="name" for="Nombre">Nombre </label>
+        <input type="text" name="Nombre" required>
 
-    <!-- Contenedor principal -->
-    <div class="container">
+        <label for="surname">Apellidos </label>
+        <input type="text" name="Apellidos" required>
+        <br></br>
 
-        <!-- Zona izquierda -->
+        <br></br>
+        <label class="tel" for="Teléfono">Teléfono </label>
+        <input type="tel" name="Teléfono" required>
 
-        <div class="left">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d50341349.17088453!2d104.51899461664661!3d39.63638696593859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x67328f3cd57de715%3A0x1bbe64e7a21aa7fc!2sFosa%20de%20las%20Marianas!5e0!3m2!1ses!2ses!4v1707148418757!5m2!1ses!2ses"
-                id="mapa" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <label for="Correo electrónico">Correo electrónico</label>
+        <input type="email" name="Correo electrónico" required>
+        <br></br>
 
-
-        </div>
-        <!-- Zona derecha -->
-        <div class="right">
-
-
-            <h4> Dirección</h4>
-            <p> Avenida de la Sopa de tiburón 34 09761, Fosas Marianas</p>
-
-            <h4> Email</h4>
-            <p> viajenochentacliks@hotmail.com</p>
-
-            <h4> Teléfono</h4>
-            <p>123 456 789</p>
-
-            <h4> Redes Sociales</h4>
-
-            <p>@Around_theworld_in_80clicks</p>
-            <p>@Around_theworld_in_80clicks</p>
-            <p>@Around_theworld_in_80clicks</p>
-            <p>@Around_theworld_in_80clicks</p>
-        </div>
+        <br></br>
+        <label class="card" for="Tarjeta">Tarjeta de Crédito:</label>
+        <input type="card" name="Tarjeta de Crédito" id= card required>
+        <br></br>
+        <br></br>
+       
+        <label cad=" caducidad">Fecha de caducidad:</label>
+        <input type="date" name="caducidad" required>
+        <label for="cvv">CVV</label>
+        <input type="cvv" name="cvv" required=>
+        <br></br>
+        <br> <br>
+        <input type="submit" value="Enviar" id="submit">
+        <br></br>
     </div>
-    </div>
-
-
-
-
-    <div class="cuadrado"></div>
-
-
-
-
-
-
 </body>
-
-
 
 <footer>
     <div class="cuadradoFooter">
@@ -106,24 +103,22 @@
             <a href="gfdgdsgd" style="text-decoration: none;">viajenochentacliks@hotmail.com</a><br>
             Tel: 123 456 789<br>
             <ul style="display: inline;">
-                <li><a href="https://www.instagram.com/" target="_blank"><img
-                            src="../material para pag web vuelta la mundo/imagenInstagramFooter.png"
-                            class="imagenes"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img 
+                    src="imagenInstagramFooter.png"class="imagenes"></a></li>
+                        
                 <li><a href="https://twitter.com/?lang=es" target="_blank"><img
-                            src="../material para pag web vuelta la mundo/imagenTwitterFooter.png" class="imagenes"></a>
+                            src="imagenTwitterFooter.png" class="imagenes"></a>
                 </li>
                 <li><a href="https://www.google.com/intl/es/gmail/about/" target="_blank"><img
-                            src="../material para pag web vuelta la mundo/imagenGmailFooter.png" class="imagenes"></a>
+                            src="imagenGmailFooter.png" class="imagenes"></a>
                 </li>
                 <li><a href="https://www.facebook.com/?locale=es_ES" target="_blank"><img
-                            src="../material para pag web vuelta la mundo/imagesFacebookFooter.png"
+                            src="imagesFacebookFooter.png"
                             class="imagenes"></a></li>
             </ul>
 
         </span>
     </div>
 </footer>
-
-</html>
 
 </html>
