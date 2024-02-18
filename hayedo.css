@@ -62,3 +62,29 @@ p {
     border-style: solid;
     border-color: brown;
 }
+
+.cuadradoFooter{
+    margin-top: 100px;
+    top: 4000px;
+    background-color: #92ccd1;
+    width: 100%;
+    height: 150px;
+}
+.direccionFooter{
+    font-size: 30px; 
+    position: absolute; 
+    margin-top: 32px; 
+    margin-left: 20px;
+}
+.direccionFooter2{
+    font-size: 30px; 
+    position: absolute; 
+    margin-top: 25px; 
+    margin-left: 70%;
+}
+.imagenes{
+    width: 30px; 
+    height: 30px;
+}
+
+
