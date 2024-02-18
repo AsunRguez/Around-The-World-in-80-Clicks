@@ -83,9 +83,10 @@ li{
 }
 .contactanos:hover {
     padding:30px;
-    background-color: rgba(160, 160, 160, 0.17);
+    background-color: rgba(160, 160, 160, 0.415);
     cursor: pointer;
     transition: 0.20s;
+    font-weight: bold;
     
   }
 
