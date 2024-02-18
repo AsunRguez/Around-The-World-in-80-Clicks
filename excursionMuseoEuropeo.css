@@ -1,0 +1,125 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../cielo-nubes-sol-fondo-manana-azul-cielo-pastel-blanco-foco-suave-foco-luz-solar-resumen-bo.avif');
+    background-size: cover;
+    background-position: center;
+  }
+
+  header {
+    background-color: rgba(165, 201, 255, 0.648); 
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 80px auto 20px; 
+    padding: 0 20px;
+    transition: opacity 0.5s ease; 
+  }
+
+  .imagenContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+  }
+
+  img:hover {
+    transform: scale(1.05); 
+  }
+
+  .texto {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
+  }
+
+  .texto h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #007bff;  
+  }
+
+  .texto p:last-child {
+    margin-bottom: 0;
+  }
+
+  footer {
+    background-color: rgba(0, 123, 255, 0.7);  
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative; 
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  .Logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+
+  .Logo img {
+    width: 60px;
+    height: auto;
+    border-radius: 50%; 
+    border: 2px solid #fff; 
+  }
+
+  .nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;  
+  }
+
+  .nav a:hover {
+    color: #f8d166;  
+  }
+
+  .galeria {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .galeria img {
+    width: 200px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease;  
+  }
+
+  .galeria img:hover {
+    transform: scale(1.05);  
+  }
