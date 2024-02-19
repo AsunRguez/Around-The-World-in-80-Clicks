@@ -1,52 +1,74 @@
-.barraInicio{
-    position:fixed;
+.barraInicio {
+    position: fixed;
     width: 2012px;
     height: 175px;
     margin-left: -100px;
     top: -10px;
-    background-color: rgb(255, 255, 255) ;
+    background-color: rgb(255, 255, 255);
 }
-.ImagenInicio{
+
+.ImagenInicio {
     position: absolute;
     width: 160px;
     height: 160px;
     top: 20px;
     margin-left: 10%;
 }
-a{
+
+a {
     text-decoration: none;
     color: rgb(34, 121, 235);
-    
+
 }
+
 a:hover {
 
-    padding:10px;
+    padding: 10px;
     background-color: rgb(224, 224, 224);
     cursor: pointer;
-    
-  }
 
-li{
+}
+
+li {
     list-style: none;
     display: inline;
     padding-left: 30px;
 }
 
-.opciones{
-   
+.opciones {
+
     margin-left: 30%;
     margin-top: 75px;
-    font-size:25px;
-    
-    
+    font-size: 25px;
+
 }
 
-.resenia {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
+.logos {
+    display: inline;
+    margin-left: 83%;
+    position: absolute;
+    bottom: -15px;
+
 }
+
+.container {
+
+    margin: 20%;
+    border-radius: 10%;
+    background-color: #92ccd1;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 180%;
+    color: white;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 
 h1 {
     text-align: center;
@@ -57,32 +79,32 @@ p {
     margin-bottom: 20px;
     color: #555;
 }
-#hayedo{
 
-    border-style: solid;
-    border-color: brown;
-}
 
-.cuadradoFooter{
+
+.cuadradoFooter {
     margin-top: 100px;
     top: 4000px;
     background-color: #92ccd1;
     width: 100%;
     height: 150px;
 }
-.direccionFooter{
-    font-size: 30px; 
-    position: absolute; 
-    margin-top: 32px; 
+
+.direccionFooter {
+    font-size: 30px;
+    position: absolute;
+    margin-top: 32px;
     margin-left: 20px;
 }
-.direccionFooter2{
-    font-size: 30px; 
-    position: absolute; 
-    margin-top: 25px; 
+
+.direccionFooter2 {
+    font-size: 30px;
+    position: absolute;
+    margin-top: 25px;
     margin-left: 70%;
 }
-.imagenes{
-    width: 30px; 
+
+.imagenes {
+    width: 30px;
     height: 30px;
 }
