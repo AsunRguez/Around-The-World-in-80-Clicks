@@ -1,0 +1,64 @@
+.barraInicio{
+    position:fixed;
+    width: 2012px;
+    height: 150px;
+    margin-left: -100px;
+    top: -10px;
+    background-color: rgb(255, 255, 255) ;
+    z-index: 5;
+}
+.ImagenInicio{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    margin-left: 10%;
+    
+}
+.efecto{
+    text-decoration: none;
+    color: rgb(34, 121, 235);
+    
+}
+.efecto:hover {
+    padding:10px;
+    background-color: rgba(160, 160, 160, 0.17);
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 25px;
+    transition: 0.20s;
+    
+  }
+
+li{
+    list-style: none;
+    display: inline;
+    padding-left: 30px;
+}
+
+.opciones{
+    margin-left: 25%;
+    margin-top: 75px;
+    font-size:25px;
+    
+    
+}
+.logos{
+    display: inline;
+    margin-left: 83%;
+    position: absolute;
+    bottom: 15px;
+}
+
+.cuadrado{
+    background-color: rgb(125, 178, 248);
+    margin-top: 10%;
+    width: 1200px;
+    margin-left: 20%;
+    font-size:x-large
+}
+
+.uno{
+    margin-left: 25%;
+   
+
+}
