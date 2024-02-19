@@ -1,0 +1,128 @@
+
+.barraInicio{
+    position:fixed;
+    width: 2012px;
+    height: 150px;
+    margin-left: -100px;
+    top: -10px;
+    background-color: rgb(255, 255, 255) ;
+    z-index: 5;
+}
+.ImagenInicio{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    margin-left: 10%;
+    
+}
+.efecto{
+    text-decoration: none;
+    color: rgb(34, 121, 235);
+    
+}
+.efecto:hover {
+    padding:10px;
+    background-color: rgba(160, 160, 160, 0.17);
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 25px;
+    transition: 0.20s;
+    
+  }
+
+li{
+    list-style: none;
+    display: inline;
+    padding-left: 30px;
+}
+
+.opciones{
+    margin-left: 25%;
+    margin-top: 75px;
+    font-size:25px;
+    
+    
+}
+.logos{
+    display: inline;
+    margin-left: 83%;
+    position: absolute;
+    bottom: -15px;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+  
+
+
+}
+
+
+
+.search-box {
+    position: absolute;
+    margin-top: 10%;
+   margin-left: 45%;
+   background-image: url(../atw\ img/si.gif);
+
+   
+   
+}
+
+.image-container {
+    position: absolute;
+    margin-top: 20%;
+    display: inline;
+    flex-wrap: wrap;
+    background-color: rgb(125, 178, 248);
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    display: inline;
+   
+}
+
+input{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(125, 178, 248);
+}
+
+img{
+    cursor:pointer;
+}
+
+img:hover{
+    transform: scale(1.5);
+}
+
+.cuadradoFooter{
+    margin-top: 100px;
+    top: 1800px;
+    background-color: #92ccd1;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+}
+.direccionFooter{
+    font-size: 30px; 
+    position: absolute; 
+    margin-top: 32px; 
+    margin-left: 20px;
+}
+.direccionFooter2{
+    font-size: 30px; 
+    position: absolute; 
+    margin-top: 25px; 
+    margin-left: 70%;
+}
+.imagenes{
+    width: 30px; 
+    height: 30px;
+}
