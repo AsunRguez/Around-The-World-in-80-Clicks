@@ -1,0 +1,153 @@
+.barraInicio{
+    position:fixed;
+    width: 2012px;
+    height: 150px;
+    margin-left: -100px;
+    top: -10px;
+    background-color: rgb(255, 255, 255) ;
+    z-index: 5;
+}
+.ImagenInicio{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    margin-left: 10%;
+    
+} 
+.efecto{
+    text-decoration: none;
+    color: rgb(34, 121, 235);
+}
+.efecto:hover {
+    padding:10px;
+    background-color: rgba(160, 160, 160, 0.17);
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 25px;
+    transition: 0.20s;
+    
+  }
+
+li{
+    list-style: none;
+    display: inline;
+    padding-left: 30px;
+}
+
+.opciones{
+    margin-left: 25%;
+    margin-top: 75px;
+    font-size:25px;
+    
+    
+}
+.logos{
+    display: inline;
+    margin-left: 83%;
+    position: absolute;
+    bottom: -15px;
+}
+
+#ImagenInicio2{
+    width: 100%;
+}
+
+.Texto1{
+    position:absolute;
+    font-size: 100px;
+    top: 30%;
+    margin-left:8%;
+    color: #031f44
+}
+
+.Texto2{
+    position:absolute;
+    font-size: 50px;
+    top: 50%;
+    margin-left:60%;
+    color: #031f44
+}
+.contactanos{
+    position: absolute;
+    top: 80%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000f22;
+    margin-left:60%;
+    text-decoration: none;
+    border-style: solid;
+    border-color: #031f44;
+    padding: 20px;
+    border-width: 1px;
+    border-radius: 25px ;
+}
+.contactanos:hover {
+    padding:30px;
+    background-color: rgba(160, 160, 160, 0.415);
+    cursor: pointer;
+    transition: 0.20s;
+    font-weight: bold;
+    
+  }
+
+
+.TextoIntro{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ImagenInicio3{
+    width: 100%;
+    margin-top: -100px;
+}
+
+.cuadrado{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-left: 1380px;
+    top: 3000px;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230) ;
+    box-shadow: 5px 5px rgb(118, 118, 118);
+}
+
+.noticias2{
+    display: inline;
+    margin-left: -50px;
+}
+.noticias3{
+    display: inline;
+    margin-left: -50px;
+}
+
+
+
+.cuadradoFooter{
+    margin-top: 100px;
+    top: 4000px;
+    background-color: #92ccd1;
+    width: 100%;
+    height: 150px;
+}
+.direccionFooter{
+    font-size: 30px; 
+    position: absolute; 
+    margin-top: 32px; 
+    margin-left: 20px;
+}
+.direccionFooter2{
+    font-size: 30px; 
+    position: absolute; 
+    margin-top: 25px; 
+    margin-left: 70%;
+}
+.imagenes{
+    width: 30px; 
+    height: 30px;
+}
+
+
+
