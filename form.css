@@ -1,0 +1,111 @@
+.barraInicio{
+    position:fixed;
+    width: 2012px;
+    height: 175px;
+    margin-left: -100px;
+    top: -10px;
+    background-color: rgb(255, 255, 255) ;
+}
+.ImagenInicio{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 20px;
+    margin-left: 10%;
+}
+a{
+    text-decoration: none;
+    color: rgb(34, 121, 235);
+    
+}
+a:hover {
+
+    padding:10px;
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+    
+  }
+
+li{
+    list-style: none;
+    display: inline;
+    padding-left: 30px;
+}
+
+.opciones{
+   
+    margin-left: 30%;
+    margin-top: 75px;
+    font-size:25px;
+    
+    
+}
+
+
+
+.container{
+
+    
+    border-style: solid; color: black;
+   
+
+}
+
+fieldset {
+            width: 50%; /* Ancho del fieldset */
+            margin: 0 auto; /* Centrar el fieldset */
+            padding: 40px; /* Espacio interior del fieldset */
+            background-color:#92ccd1;
+            text-align: center;
+            font-size: 14px;
+         
+        }
+
+        #card{
+            width: 50%;  
+        }
+
+        #submit{
+
+        
+            border-radius: 20px; /* Radio para hacer el botón ovalado */
+            padding: 10px 20px; /* Espaciado interior del botón */
+            background-color: #007bff; /* Color de fondo del botón */
+            color: #fff; /* Color del texto del botón */
+           
+        }
+
+        legend {
+           
+            font-weight: bold
+            
+            
+        }
+
+
+
+
+
+.cuadradoFooter{
+    margin-top: 100px;
+    top: 4000px;
+    background-color: #92ccd1;
+    width: 100%;
+    height: 150px;
+}
+.direccionFooter{
+    font-size: 30px; 
+    position: absolute; 
+    margin-top: 32px; 
+    margin-left: 20px;
+}
+.direccionFooter2{
+    font-size: 30px; 
+    position: absolute; 
+    margin-top: 25px; 
+    margin-left: 70%;
+}
+.imagenes{
+    width: 30px; 
+    height: 30px;
+}
