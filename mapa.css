@@ -72,8 +72,8 @@ img{
     width: 600px;
     border: 8px solid #73AD90;
     padding: 19px;
-    color: white;
-    font-size: 30;
+    color: black;
+    font-size: 25px;
 }
 
 .left {
@@ -91,9 +91,9 @@ img{
 
 body{
 
-    background-image:url(ContactoNubes.jpg); 
-    background-size: cover; /* Ajustar la imagen al tamaño de la ventana del navegador */
-    background-position: center; /* Centrar la imagen */
+    background-image:url(FondoContacto.jpg); 
+    background-size: cover; 
+    background-position: center;
     
    
    
