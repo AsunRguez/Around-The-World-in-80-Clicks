@@ -1,0 +1,127 @@
+.barraInicio {
+    position: fixed;
+    width: 2012px;
+    height: 150px;
+    margin-left: -100px;
+    top: -10px;
+    background-color: rgb(255, 255, 255);
+    z-index: 5;
+}
+
+.ImagenInicio {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    margin-left: 10%;
+
+}
+
+.efecto {
+    text-decoration: none;
+    color: rgb(34, 121, 235);
+}
+
+.efecto:hover {
+    padding: 10px;
+    background-color: rgba(160, 160, 160, 0.17);
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 25px;
+    transition: 0.20s;
+
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding-left: 30px;
+}
+
+.opciones {
+    margin-left: 25%;
+    margin-top: 75px;
+    font-size: 25px;
+
+
+}
+
+.logos {
+    display: inline;
+    margin-left: 83%;
+    position: absolute;
+    bottom: -15px;
+}
+
+img{
+
+    width: 600px;
+    height: 400px;
+}
+.container {
+    display: inline-block;
+    /* Utiliza flexbox para distribuir los elementos */
+    height: 100vh;
+    /* Establece la altura al 100% del viewport */
+}
+
+
+
+.right {
+    position: absolute;
+    right: 150px;
+    width: 600px;
+    border: 8px solid #73AD90;
+    padding: 19px;
+    color: black;
+    font-size: 25px;
+}
+
+.left {
+    position: absolute;
+    left: 150px;
+    width: 600px;
+    border: 8px solid #73AD90;
+    padding: 1px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+body{
+
+    background-image:url(FondoContacto.jpg); 
+    background-size: cover; 
+    background-position: center;
+    
+   
+   
+    
+}
+.cuadradoFooter {
+    margin-top: 100px;
+    top: 4000px;
+    background-color: #92ccd1;
+    width: 100%;
+    height: 150px;
+}
+
+.direccionFooter {
+    font-size: 30px;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 20px;
+}
+
+.direccionFooter2 {
+    font-size: 30px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 70%;
+}
+
+.imagenes {
+    width: 30px;
+    height: 30px;
+}
